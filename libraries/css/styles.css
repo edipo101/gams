@@ -1,0 +1,26 @@
+.product-item{
+	margin-bottom: 20px;
+}
+.product-item .product-image{
+	margin: 0 auto; 
+	display: block;
+    max-width: 100%;
+    height: auto;
+    width: 260px;
+}
+
+.product-item .product-name{
+	text-align: center;
+	font-weight: 600;
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.product-item .product-price{
+	text-align: center;
+	margin-top: 5px;
+}
+

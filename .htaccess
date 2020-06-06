@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|libraries|bower_components|dist|robots\.txt)
+RewriteRule ^(.*)$ /gams/index.php/$1 [L]	
